@@ -6,7 +6,7 @@
 # install via brew
 brew bundle --file=./Brewfile
 
-sudo xattr -dr com.apple.quarantine /Applications/Crome.app
+sudo xattr -dr com.apple.quarantine /Applications/Chrome.app
 sudo xattr -dr com.apple.quarantine /Applications/Notion.app
 sudo xattr -dr com.apple.quarantine /Applications/Alfred\ 5.app
 sudo xattr -dr com.apple.quarantine /Applications/Adguard.app
