@@ -1,4 +1,3 @@
-
 brew 'git'
 brew 'git-flow'
 brew 'docker'
@@ -16,6 +15,7 @@ cask 'alfred'
 cask 'adguard'
 cask 'iterm2'
 cask 'karabiner-elements'
+cask 'git-credential-manager-core'
 cask 'sourcetree'
 cask 'postman'
 cask 'altair-graphql-client'
