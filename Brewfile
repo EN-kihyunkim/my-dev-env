@@ -1,4 +1,5 @@
 brew 'git'
+brew 'gh'
 brew 'git-flow'
 brew 'docker'
 brew 'docker-compose'
