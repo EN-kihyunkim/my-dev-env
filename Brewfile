@@ -4,6 +4,7 @@ brew 'git-flow'
 brew 'docker'
 brew 'docker-compose'
 brew 'minikube'
+brew 'helm'
 brew 'nvm'
 brew 'mongosh'
 brew 'mysql-client'
@@ -23,6 +24,9 @@ cask 'altair-graphql-client'
 cask 'visual-studio-code'
 cask 'webstorm'
 cask 'datagrip'
+cask 'shottr'
+cask 'openlens'
+cask 'multipass'
 
 mas 'Slack', id: 803453959
 mas 'Magnet', id: 441258766
