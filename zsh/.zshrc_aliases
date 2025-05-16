@@ -1,0 +1,13 @@
+alias buildbiz='npm run build -- --scope @enl/utility --scope @enl/entity --scope @enl/weatherbit --scope @enl/rtu --scope biz-api'
+alias runbiz='lerna run start:dev --scope biz-api'
+alias buildevent='lerna run build --scope @enl/entity --scope @enl/utility --scope event-consumer-api'
+alias runevent='lerna run start:local --scope event-consumer-api'
+alias buildpdf='lerna run build --scope @enl/entity --scope @enl/utility --scope pdf-migrator'
+alias runpdf='lerna run start:dev --scope pdf-migrator'
+alias buildking='npm run build -- --scope @enl/utility --scope @enl/entity --scope @enl/weahterbit --scope @enl/rtu --scope king-api'
+alias runking='lerna run start:dev --scope king-api'
+
+alias k="kubectl"
+alias tfi='terraform init'
+alias tfa='terraform apply'
+alias tff='terraform fmt'
